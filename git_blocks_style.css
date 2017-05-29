@@ -1,0 +1,122 @@
+/*css reset*/
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body{
+  background-color: #DDDDDD;
+}
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: monospace;
+  color: #DDDDDD;
+}
+header{
+  background-color: #39B0AC;
+  height: 60px;
+}
+img{
+  height: 40px;
+  mix-blend-mode: multiply;
+  margin: 10px;
+}
+header *{
+  display: inline-block;
+}
+h1{
+  font-weight: normal;
+  color: #000000;
+  vertical-align: top;
+  line-height: 60px;
+}
+ul{
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
+  line-height: 60px;
+}
+li{
+  display: inline-block;
+  margin-right: 10px;
+}
+li a{
+  color: white;
+}
+main{
+  background-color: #FBE691;
+  padding: 10px;
+  margin-top: 15px;
+}
+main div{
+  display: inline-block;
+  vertical-align: top;
+}
+#leftie{
+  width: 210px;
+  background-color: #154044;
+  margin: 10px;
+  padding: 15px;
+  height: 500px;
+}
+#leftie *{
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+main div p, main div div p{
+  margin-left: 5px;
+}
+#rightie{
+  display: inline-block;
+  width: 590px;
+  margin: 10px;
+}
+h3{
+  font-size: 1.2em;
+  font-weight: normal;
+}
+.top{
+  height: 120px;
+  width: 120px;
+  padding: 15px;
+  margin: 0 20px;
+  background-color: #154044;
+}
+.mid{
+  height: 130px;
+  width: 220px;
+  padding: 15px;
+  margin: 25px 20px 0 20px;
+  display: inline-block;
+  background-color: #154044;
+}
+#bottom{
+  height: 140px;
+  width: 520px;
+  background-color: #154044;
+  margin: 25px 20px 0 20px;
+  padding: 15px;
+}
+#bottom p{
+
+}
+main div *{
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+.command{
+  color: #4DDBCA;
+}
+footer{
+  background-color: #39B0AC;
+  margin-top: 15px;
+  height: 50px;
+  color: black;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 50px;
+}
